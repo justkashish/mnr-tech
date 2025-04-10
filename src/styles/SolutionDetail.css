@@ -1,0 +1,308 @@
+.solution-detail-page {
+    padding-top: 80px;
+}
+
+.solution-hero {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    padding: 6rem 1.5rem;
+    text-align: center;
+}
+
+.solution-hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.solution-hero p {
+    font-size: 1.25rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.solution-overview {
+    padding: 5rem 1.5rem;
+    background-color: white;
+}
+
+.solution-overview .overview-content {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.solution-overview .overview-text {
+    flex: 1;
+}
+
+.solution-overview .overview-text h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.solution-overview .overview-text p {
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+.solution-overview .overview-image {
+    flex: 1;
+}
+
+.solution-overview .overview-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.solution-features {
+    padding: 5rem 1.5rem;
+    background-color: #f8f9fa;
+}
+
+.solution-features h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.solution-features .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.solution-features .feature-card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 2.5rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.solution-features .feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.solution-features .feature-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 16px;
+    background-color: rgba(0, 112, 243, 0.1);
+    color: #0070f3;
+    margin: 0 auto 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.solution-features .feature-card:hover .feature-icon {
+    background-color: #0070f3;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.solution-features .feature-card h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.solution-features .feature-card p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.solution-benefits {
+    padding: 5rem 1.5rem;
+    background-color: white;
+}
+
+.solution-benefits h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.solution-benefits .benefits-list {
+    list-style: none;
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.solution-benefits .benefits-list li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 0.75rem;
+    color: #555;
+}
+
+.solution-benefits .benefits-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #0070f3;
+}
+
+.case-studies {
+    padding: 5rem 1.5rem;
+    background-color: #f8f9fa;
+}
+
+.case-studies h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.case-studies .case-studies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 2.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.case-studies .case-study-card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 2.5rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.case-studies .case-study-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.case-studies .case-study-card h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.case-studies .case-study-card p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+.case-studies .case-study-card .case-study-link {
+    display: inline-flex;
+    align-items: center;
+    color: #0070f3;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.case-studies .case-study-card .case-study-link:hover {
+    color: #005ad1;
+}
+
+.case-studies .case-study-card .arrow-icon {
+    margin-left: 0.5rem;
+    transition: transform 0.3s ease;
+}
+
+.case-studies .case-study-card .case-study-link:hover .arrow-icon {
+    transform: translateX(5px);
+}
+
+.solution-cta {
+    padding: 5rem 1.5rem;
+    background-color: white;
+    text-align: center;
+}
+
+.solution-cta h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.solution-cta p {
+    font-size: 1.25rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto 2rem;
+}
+
+.solution-cta .cta-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #0070f3;
+    color: white;
+    border-radius: 4px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.solution-cta .cta-button:hover {
+    background-color: #005ad1;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 112, 243, 0.2);
+}
+
+@media (max-width: 992px) {
+    .solution-overview .overview-content {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .solution-overview .overview-text,
+    .solution-overview .overview-image {
+        flex: 1;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .solution-hero h1 {
+        font-size: 2.5rem;
+    }
+    .solution-hero p {
+        font-size: 1.1rem;
+    }
+    .solution-overview .overview-text h2 {
+        font-size: 2rem;
+    }
+    .solution-features h2,
+    .solution-benefits h2,
+    .case-studies h2,
+    .solution-cta h2 {
+        font-size: 2rem;
+    }
+    .solution-features .features-grid,
+    .case-studies .case-studies-grid {
+        grid-template-columns: 1fr;
+    }
+}

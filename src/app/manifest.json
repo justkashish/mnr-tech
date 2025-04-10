@@ -1,0 +1,25 @@
+{
+    "name": "MNR Technologies",
+    "short_name": "MNR Tech",
+    "description": "Innovative technology solutions for businesses",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#0070f3",
+    "icons": [{
+            "src": "/favicon.ico",
+            "sizes": "64x64 32x32 24x24 16x16",
+            "type": "image/x-icon"
+        },
+        {
+            "src": "/AI.jpg",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/AI.jpg",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}

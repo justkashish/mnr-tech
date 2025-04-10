@@ -1,0 +1,150 @@
+.solutions-page {
+    padding-top: 80px;
+}
+
+.solutions-hero {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    padding: 6rem 1.5rem;
+    text-align: center;
+}
+
+.solutions-hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.solutions-hero p {
+    font-size: 1.25rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.solutions-container {
+    max-width: 1200px;
+    margin: 4rem auto;
+    padding: 0 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 2.5rem;
+}
+
+.solution-card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 2.5rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.solution-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.solution-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.solution-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 16px;
+    background-color: rgba(0, 112, 243, 0.1);
+    color: #0070f3;
+    margin-right: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.solution-card:hover .solution-icon {
+    background-color: #0070f3;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.solution-title {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.solution-description {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+.solution-features {
+    margin-bottom: 2rem;
+}
+
+.solution-features h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.solution-features ul {
+    list-style: none;
+    padding: 0;
+}
+
+.solution-features li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 0.75rem;
+    color: #555;
+}
+
+.solution-features li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #0070f3;
+}
+
+.solution-link {
+    display: inline-flex;
+    align-items: center;
+    color: #0070f3;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.solution-link:hover {
+    color: #005ad1;
+}
+
+.arrow-icon {
+    margin-left: 0.5rem;
+    transition: transform 0.3s ease;
+}
+
+.solution-link:hover .arrow-icon {
+    transform: translateX(5px);
+}
+
+@media (max-width: 768px) {
+    .solutions-hero h1 {
+        font-size: 2.5rem;
+    }
+    .solutions-hero p {
+        font-size: 1.1rem;
+    }
+    .solutions-container {
+        grid-template-columns: 1fr;
+    }
+}
