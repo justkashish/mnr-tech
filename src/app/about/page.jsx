@@ -72,7 +72,7 @@ export default function AboutPage() {
           <p>Driving innovation and digital transformation since 2010</p>
         </div>
 
-        <div className="about-section">
+        {/* <div className="about-section">
           <div className="about-content">
             <div className="about-text">
               <h2>Our Story</h2>
@@ -120,7 +120,7 @@ export default function AboutPage() {
               <img src="/team.jpg" alt="MNR Technologies Office" />
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="team-section">
           <h2>Our Leadership Team</h2>

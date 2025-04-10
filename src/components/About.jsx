@@ -62,7 +62,7 @@ const About = () => {
         </div>
 
         <div className="about-image">
-          <img src="/team.jpg" alt="MNR Technologies Team" className="team-image" />
+          <img src="/solution.jpg" alt="MNR Technologies Team" className="team-image" />
         </div>
       </div>
     </section>
