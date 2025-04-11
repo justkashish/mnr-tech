@@ -30,9 +30,9 @@ export default function NotFound() {
           </div>
         </div>
       </div>
-      <div className="not-found-illustration">
+      {/* <div className="not-found-illustration">
         <img src="/not-found.jpg" alt="Page not found illustration" />
-      </div>
+      </div> */}
     </div>
   )
 }
