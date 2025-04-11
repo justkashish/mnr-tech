@@ -25,14 +25,13 @@ export default function NotFound() {
           <h2>You might be looking for:</h2>
           <div className="suggestion-links">
             <Link href="/solutions">Our Solutions</Link>
-            <Link href="/services">Our Services</Link>
             <Link href="/about">About Us</Link>
             <Link href="/contact">Contact Us</Link>
           </div>
         </div>
       </div>
       <div className="not-found-illustration">
-        <img src="/placeholder.svg?height=400&width=400" alt="Page not found illustration" />
+        <img src="/not-found.jpg" alt="Page not found illustration" />
       </div>
     </div>
   )
