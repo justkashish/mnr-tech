@@ -26,7 +26,7 @@ export default function ContactPage() {
                 <br />
                 Silicon Valley, CA 94025
               </p>
-              <p>Phone: +1 (555) 123-4567</p>
+              <p>Phone: +91 73299 99968</p>
               <p>Email: info@mnrtechnologies.com</p>
             </div>
 

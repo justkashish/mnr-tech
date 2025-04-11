@@ -143,7 +143,7 @@ const Contact = () => {
               <Phone className="info-icon" />
               <div>
                 <h4>Phone Number</h4>
-                <p>+1 (555) 123-4567</p>
+                <p> +91 73299 99968</p>
               </div>
             </div>
 
