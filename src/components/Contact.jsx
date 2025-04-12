@@ -132,10 +132,12 @@ const Contact = () => {
               <div>
                 <h4>Our Location</h4>
                 <p>
-                  123 Tech Park, Innovation Drive
-                  <br />
-                  Silicon Valley, CA 94025
-                </p>
+                Pranava business park
+                <br />
+                Kothaguda, Hyderabad
+                <br />
+                Telangana 500084
+              </p>
               </div>
             </div>
 

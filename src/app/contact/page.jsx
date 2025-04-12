@@ -1,8 +1,8 @@
-"use client"
-import Navbar from "@/components/Navbar"
-import Footer from "@/components/Footer"
-import Contact from "@/components/Contact"
-import "../../styles/ContactPage.css"
+"use client";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import Contact from "@/components/Contact";
+import "../../styles/ContactPage.css";
 
 export default function ContactPage() {
   return (
@@ -11,7 +11,10 @@ export default function ContactPage() {
       <div className="contact-page">
         <div className="contact-hero">
           <h1>Contact Us</h1>
-          <p>We'd love to hear from you. Reach out to discuss how we can help with your technology needs.</p>
+          <p>
+            We'd love to hear from you. Reach out to discuss how we can help
+            with your technology needs.
+          </p>
         </div>
 
         <Contact />
@@ -22,9 +25,11 @@ export default function ContactPage() {
             <div className="office-card">
               <h3>Headquarters</h3>
               <p>
-                123 Tech Park, Innovation Drive
+                Pranava business park
                 <br />
-                Silicon Valley, CA 94025
+                Kothaguda, Hyderabad
+                <br />
+                Telangana 500084
               </p>
               <p>Phone: +91 73299 99968</p>
               <p>Email: info@mnrtechnologies.com</p>
@@ -56,6 +61,5 @@ export default function ContactPage() {
       </div>
       <Footer />
     </main>
-  )
+  );
 }
-
