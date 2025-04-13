@@ -34,7 +34,7 @@
     transform: translateX(-50%);
     width: 80px;
     height: 4px;
-    background-color: #0070f3;
+    background-color: #40e0d0;
 }
 
 .section-subtitle {
@@ -78,14 +78,14 @@
     width: 70px;
     height: 70px;
     border-radius: 20px;
-    background-color: rgba(0, 112, 243, 0.1);
-    color: #0070f3;
+    background-color: rgba(64, 224, 208, 0.1);
+    color: #40e0d0;
     margin-bottom: 1.5rem;
     transition: all 0.3s ease;
 }
 
 .service-card:hover .service-icon {
-    background-color: #0070f3;
+    background: linear-gradient(135deg, #40e0d0 0%, #4169e1 100%);
     color: white;
     transform: rotateY(180deg);
 }
@@ -106,14 +106,14 @@
 .service-link {
     display: inline-flex;
     align-items: center;
-    color: #0070f3;
+    color: #40e0d0;
     font-weight: 500;
     text-decoration: none;
     transition: all 0.3s ease;
 }
 
 .service-link:hover {
-    color: #005ad1;
+    color: #4169e1;
 }
 
 .arrow-icon {

@@ -9,6 +9,7 @@ const Navbar = () => {
   const [scrolled, setScrolled] = useState(false)
   const [activeDropdown, setActiveDropdown] = useState(null)
 
+
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 50) {
@@ -20,7 +21,14 @@ const Navbar = () => {
 
     window.addEventListener("scroll", handleScroll)
     return () => window.removeEventListener("scroll", handleScroll)
-  }, [])
+ 
+ 
+
+return () => {
+  window.removeEventListener("scroll", handleScroll)
+  clearTimeout(timer)
+}
+}, [])
 
   const toggleMenu = () => {
     setIsOpen(!isOpen)
@@ -71,9 +79,14 @@ const Navbar = () => {
       <div className="navbar-container">
         <div className="navbar-logo">
           <Link href="/">
-            <span className="logo-text">
-              MNR <span className="logo-highlight">Technologies</span>
-            </span>
+          <div className="logo-loaded">
+              <img
+                src="/images/Logo.jpg"
+                alt="MNR Technologies Logo"
+                className="logo-image"
+              />
+              <div className="logo-glow"></div>
+            </div>
           </Link>
         </div>
 

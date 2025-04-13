@@ -87,7 +87,7 @@ export default function CloudSolutionPage() {
               </p>
             </div>
             <div className="overview-image">
-              <img src="/cloud.jpg" alt="Cloud Technology Solutions" />
+              <img src="/images/cloud.jpg" alt="Cloud Technology Solutions" />
             </div>
           </div>
         </div>

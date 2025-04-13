@@ -82,7 +82,7 @@ export default function HealthcareSolutionPage() {
               </p>
             </div>
             <div className="overview-image">
-              <img src="/health.jpg" alt="Healthcare Technology Solutions" />
+              <img src="/images/health.jpg" alt="Healthcare Technology Solutions" />
             </div>
           </div>
         </div>

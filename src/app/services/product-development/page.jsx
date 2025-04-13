@@ -82,7 +82,7 @@ export default function ProductDevelopmentPage() {
               </p>
             </div>
             <div className="overview-image">
-              <img src="/product.jpg" alt="Product Development Services" />
+              <img src="/images/product.jpg" alt="Product Development Services" />
             </div>
           </div>
         </div>

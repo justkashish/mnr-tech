@@ -82,7 +82,7 @@ export default function DigitalTransformationPage() {
               </p>
             </div>
             <div className="overview-image">
-              <img src="/digital.jpg" alt="Digital Transformation Services" />
+              <img src="/images/digital.jpg" alt="Digital Transformation Services" />
             </div>
           </div>
         </div>

@@ -3,21 +3,22 @@
 }
 
 .solution-hero {
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    background: linear-gradient(135deg, #0c1e5b 0%, #1a2a5e 100%);
     padding: 6rem 1.5rem;
     text-align: center;
+    color: #ffffff;
 }
 
 .solution-hero h1 {
     font-size: 3rem;
     font-weight: 700;
-    color: #333;
+    color: #ffffff;
     margin-bottom: 1.5rem;
 }
 
 .solution-hero p {
     font-size: 1.25rem;
-    color: #555;
+    color: #e0e0e0;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -61,6 +62,7 @@
     height: auto;
     border-radius: 12px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    border: 3px solid rgba(64, 224, 208, 0.1);
 }
 
 .solution-features {
@@ -105,14 +107,14 @@
     width: 60px;
     height: 60px;
     border-radius: 16px;
-    background-color: rgba(0, 112, 243, 0.1);
-    color: #0070f3;
+    background-color: rgba(64, 224, 208, 0.1);
+    color: #40e0d0;
     margin: 0 auto 1.5rem;
     transition: all 0.3s ease;
 }
 
 .solution-features .feature-card:hover .feature-icon {
-    background-color: #0070f3;
+    background: linear-gradient(135deg, #40e0d0 0%, #4169e1 100%);
     color: white;
     transform: rotateY(180deg);
 }
@@ -164,7 +166,7 @@
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background-color: #0070f3;
+    background-color: #40e0d0;
 }
 
 .case-studies {
@@ -217,14 +219,14 @@
 .case-studies .case-study-card .case-study-link {
     display: inline-flex;
     align-items: center;
-    color: #0070f3;
+    color: #40e0d0;
     font-weight: 500;
     text-decoration: none;
     transition: all 0.3s ease;
 }
 
 .case-studies .case-study-card .case-study-link:hover {
-    color: #005ad1;
+    color: #4169e1;
 }
 
 .case-studies .case-study-card .arrow-icon {
@@ -238,20 +240,21 @@
 
 .solution-cta {
     padding: 5rem 1.5rem;
-    background-color: white;
+    background: linear-gradient(135deg, #0c1e5b 0%, #1a2a5e 100%);
     text-align: center;
+    color: #ffffff;
 }
 
 .solution-cta h2 {
     font-size: 2.5rem;
     font-weight: 700;
-    color: #333;
+    color: #ffffff;
     margin-bottom: 1.5rem;
 }
 
 .solution-cta p {
     font-size: 1.25rem;
-    color: #555;
+    color: #e0e0e0;
     max-width: 800px;
     margin: 0 auto 2rem;
 }
@@ -259,7 +262,7 @@
 .solution-cta .cta-button {
     display: inline-block;
     padding: 1rem 2rem;
-    background-color: #0070f3;
+    background: linear-gradient(135deg, #40e0d0 0%, #4169e1 100%);
     color: white;
     border-radius: 4px;
     font-weight: 500;
@@ -268,9 +271,9 @@
 }
 
 .solution-cta .cta-button:hover {
-    background-color: #005ad1;
+    background: linear-gradient(135deg, #4169e1 0%, #40e0d0 100%);
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 112, 243, 0.2);
+    box-shadow: 0 4px 12px rgba(64, 224, 208, 0.3);
 }
 
 @media (max-width: 992px) {

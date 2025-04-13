@@ -12,12 +12,12 @@
             "type": "image/x-icon"
         },
         {
-            "src": "/AI.jpg",
+            "src": "/images/Logo.jpg",
             "type": "image/png",
             "sizes": "192x192"
         },
         {
-            "src": "/AI.jpg",
+            "src": "/images/Logo.jpg",
             "type": "image/png",
             "sizes": "512x512"
         }

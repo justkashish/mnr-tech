@@ -81,7 +81,7 @@ export default function CybersecuritySolutionPage() {
               </p>
             </div>
             <div className="overview-image">
-              <img src="/security.jpg" alt="Cybersecurity Solutions" />
+              <img src="/images/security.jpg" alt="Cybersecurity Solutions" />
             </div>
           </div>
         </div>

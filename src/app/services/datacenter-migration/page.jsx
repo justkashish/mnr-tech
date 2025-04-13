@@ -83,7 +83,7 @@ export default function DatacenterMigrationPage() {
               </p>
             </div>
             <div className="overview-image">
-              <img src="/data.jpg" alt="Datacenter Migration Services" />
+              <img src="/images/data.jpg" alt="Datacenter Migration Services" />
             </div>
           </div>
         </div>

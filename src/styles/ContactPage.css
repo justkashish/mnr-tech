@@ -3,21 +3,22 @@
 }
 
 .contact-hero {
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    background: linear-gradient(135deg, #0c1e5b 0%, #1a2a5e 100%);
     padding: 6rem 1.5rem;
     text-align: center;
+    color: #ffffff;
 }
 
 .contact-hero h1 {
     font-size: 3rem;
     font-weight: 700;
-    color: #333;
+    color: #fff;
     margin-bottom: 1.5rem;
 }
 
 .contact-hero p {
     font-size: 1.25rem;
-    color: #555;
+    color: #e0e0e0;
     max-width: 800px;
     margin: 0 auto;
 }

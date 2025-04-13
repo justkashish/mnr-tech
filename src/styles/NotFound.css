@@ -4,7 +4,8 @@
     justify-content: center;
     min-height: 100vh;
     padding: 2rem;
-    background-color: #f8f9fa;
+    background: linear-gradient(135deg, #0c1e5b 0%, #1a2a5e 100%);
+    color: #ffffff;
 }
 
 .not-found-content {
@@ -16,22 +17,22 @@
 .error-code {
     font-size: 8rem;
     font-weight: 700;
-    color: #0070f3;
+    color: #40e0d0;
     line-height: 1;
     margin-bottom: 1rem;
-    text-shadow: 2px 2px 10px rgba(0, 112, 243, 0.2);
+    text-shadow: 2px 2px 10px rgba(64, 224, 208, 0.3);
 }
 
 .not-found-content h1 {
     font-size: 2.5rem;
     font-weight: 700;
-    color: #333;
+    color: #ffffff;
     margin-bottom: 1.5rem;
 }
 
 .not-found-content p {
     font-size: 1.25rem;
-    color: #555;
+    color: #e0e0e0;
     margin-bottom: 2rem;
 }
 
@@ -55,25 +56,25 @@
 }
 
 .not-found-button.primary {
-    background-color: #0070f3;
+    background: linear-gradient(135deg, #40e0d0 0%, #4169e1 100%);
     color: white;
     border: none;
 }
 
 .not-found-button.primary:hover {
-    background-color: #005ad1;
+    background: linear-gradient(135deg, #4169e1 0%, #40e0d0 100%);
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 112, 243, 0.2);
+    box-shadow: 0 4px 12px rgba(64, 224, 208, 0.3);
 }
 
 .not-found-button.secondary {
     background-color: transparent;
-    color: #0070f3;
-    border: 1px solid #0070f3;
+    color: #40e0d0;
+    border: 1px solid #40e0d0;
 }
 
 .not-found-button.secondary:hover {
-    background-color: rgba(0, 112, 243, 0.1);
+    background-color: rgba(64, 224, 208, 0.1);
     transform: translateY(-2px);
 }
 
@@ -84,7 +85,7 @@
 .not-found-suggestions h2 {
     font-size: 1.5rem;
     font-weight: 600;
-    color: #333;
+    color: #ffffff;
     margin-bottom: 1rem;
 }
 
@@ -96,7 +97,7 @@
 }
 
 .suggestion-links a {
-    color: #0070f3;
+    color: #40e0d0;
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-radius: 4px;
@@ -104,7 +105,7 @@
 }
 
 .suggestion-links a:hover {
-    background-color: rgba(0, 112, 243, 0.1);
+    background-color: rgba(64, 224, 208, 0.1);
     text-decoration: underline;
 }
 
@@ -117,6 +118,24 @@
 .not-found-illustration img {
     max-width: 100%;
     height: auto;
+    border: 3px solid rgba(64, 224, 208, 0.2);
+    border-radius: 12px;
+}
+
+.not-found-logo {
+    margin-bottom: 2rem;
+    animation: float 3s ease-in-out infinite;
+}
+
+.not-found-logo img {
+    height: 80px;
+    width: auto;
+}
+
+@media (max-width: 768px) {
+    .not-found-logo img {
+        height: 60px;
+    }
 }
 
 @media (max-width: 992px) {

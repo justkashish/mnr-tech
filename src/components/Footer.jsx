@@ -11,9 +11,7 @@ const Footer = () => {
         <div className="footer-column">
           <div className="footer-logo">
             <Link href="/">
-              <span className="logo-text">
-                MNR <span className="logo-highlight">Technologies</span>
-              </span>
+            <img src="/images/Logo.jpg" alt="MNR Technologies Logo" className="footer-logo-image" />
             </Link>
           </div>
           <p className="footer-description">

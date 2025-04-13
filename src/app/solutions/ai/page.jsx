@@ -85,7 +85,7 @@ export default function AISolutionPage() {
               </p>
             </div>
             <div className="overview-image">
-              <img src="/AIsolutions.jpg" alt="AI Technology Solutions" />
+              <img src="/images/AI.jpg" alt="AI Technology Solutions" />
             </div>
           </div>
         </div>

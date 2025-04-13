@@ -83,7 +83,7 @@ export default function ResearchDevelopmentPage() {
               </p>
             </div>
             <div className="overview-image">
-              <img src="/R&D.jpg" alt="Research and Development Services" />
+              <img src="/images/R&D.jpg" alt="Research and Development Services" />
             </div>
           </div>
         </div>

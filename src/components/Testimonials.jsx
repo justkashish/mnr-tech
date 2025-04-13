@@ -14,21 +14,21 @@ const Testimonials = () => {
         "MNR Technologies transformed our healthcare operations with their innovative solutions. Their AI-driven patient management system has significantly improved our efficiency and patient care quality.",
       author: "Dr. Sarah Johnson",
       position: "Medical Director, HealthFirst Clinic",
-      image: "/doctor.jpg",
+      image: "/images/sarah.jpg",
     },
     {
         quote:
           "Working with MNR Technologies on our cloud migration was seamless. Their expertise and attention to detail ensured zero downtime during the transition.",
         author: "Amanda Rodriguez",
         position: "VP of Operations, TechSolutions Inc.",
-        image: "/amanda.jpg",
+        image: "/images/amanda.jpg",
       },
       {
         quote:
           "The cybersecurity framework implemented by MNR Technologies has strengthened our banking infrastructure and given us confidence in our digital transformation journey.",
         author: "Michael Chen",
         position: "CTO, Global Finance Bank",
-        image: "/Michael.jpg",
+        image: "/images/Michael.jpg",
       },
   ]
 

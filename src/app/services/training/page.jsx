@@ -81,7 +81,7 @@ export default function TrainingProgramsPage() {
               </p>
             </div>
             <div className="overview-image">
-              <img src="/training.jpg" alt="Training Programs" />
+              <img src="/images/training.jpg" alt="Training Programs" />
             </div>
           </div>
         </div>

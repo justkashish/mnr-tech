@@ -159,7 +159,7 @@ const Contact = () => {
           </div>
 
           <div className="contact-map">
-            <img src="/location.jpg" alt="MNR Technologies Location" className="map-image" />
+            <img src="/images/location.jpg" alt="MNR Technologies Location" className="map-image" />
           </div>
         </div>
 

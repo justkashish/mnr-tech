@@ -49,7 +49,7 @@ const Hero = () => {
       <div className="hero-image">
         <div className="image-container">
           <img
-            src="/team.jpg"
+            src="/images/team.jpg"
             alt="MNR Technologies Digital Solutions"
             className="main-image animated"
           />

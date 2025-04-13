@@ -2,65 +2,101 @@
 import { useEffect, useState } from "react"
 import Navbar from "@/components/Navbar"
 import Footer from "@/components/Footer"
-import { Award, Users, Globe, TrendingUp } from "lucide-react"
+import About from "@/components/About"
+import {
+  CheckCircle,
+  Activity,
+  Building,
+  Brain,
+  Cloud,
+  Shield,
+  Code,
+  Repeat,
+  Database,
+  Lightbulb,
+  GraduationCap,
+} from "lucide-react"
 import "../../styles/AboutPage.css"
 
 export default function AboutPage() {
-    
-  const teamMembers = [
+  // const [isLoaded, setIsLoaded] = useState(true)
+
+  // useEffect(() => {
+  //   setIsLoaded(true)
+  // }, [])
+
+  const solutions = [
     {
-      name: "John Smith",
-      position: "CEO & Founder",
-      image: "/john.jpg",
-      bio: "John has over 20 years of experience in technology leadership and innovation.",
+      icon: <Activity size={32} />,
+      title: "Healthcare Solutions",
+      description:
+        "Advanced healthcare technology solutions that streamline operations, improve patient care, and enhance medical data management.",
     },
     {
-      name: "Sarah Johnson",
-      position: "CTO",
-      image: "/sarah.jpg",
-      bio: "Sarah leads our technical strategy with expertise in AI and cloud architecture.",
+      icon: <Building size={32} />,
+      title: "Banking Solutions",
+      description:
+        "Secure and efficient banking systems that modernize financial operations and enhance customer experience through digital innovation.",
     },
     {
-      name: "Michael Chen",
-      position: "Head of Product Development",
-      image: "/Michael.jpg",
-      bio: "Michael oversees our product development with a focus on user-centered design.",
+      icon: <Brain size={32} />,
+      title: "AI Solutions",
+      description:
+        "Cutting-edge AI implementation including model training, LLM, SLM, and interface building to drive intelligent automation.",
     },
     {
-      name: "Amanda Rodriguez",
-      position: "Director of Client Services",
-      image: "/amanda.jpg",
-      bio: "Amanda ensures our clients receive exceptional service and support.",
+      icon: <Cloud size={32} />,
+      title: "Cloud Solutions",
+      description:
+        "Scalable cloud infrastructure and services that optimize performance, reduce costs, and enhance operational flexibility.",
+    },
+    {
+      icon: <Shield size={32} />,
+      title: "Cybersecurity Solutions",
+      description:
+        "Robust security frameworks and protocols that protect your digital assets and sensitive information from evolving threats.",
     },
   ]
 
-  const milestones = [
+  const services = [
     {
-      year: "2010",
-      title: "Company Founded",
+      icon: <Code size={32} />,
+      title: "Product Development",
       description:
-        "MNR Technologies was established with a vision to transform businesses through innovative technology solutions.",
+        "Custom software development and tailored solutions designed to meet your specific business requirements and challenges.",
     },
     {
-      year: "2013",
-      title: "First Major Client",
-      description: "Secured our first enterprise client and delivered a successful healthcare management system.",
+      icon: <Repeat size={32} />,
+      title: "Digital Transformation",
+      description:
+        "Comprehensive digital transformation strategies that modernize your business processes and technology infrastructure.",
     },
     {
-      year: "2016",
-      title: "International Expansion",
-      description: "Opened offices in Europe and Asia to serve our growing international client base.",
+      icon: <Database size={32} />,
+      title: "Datacenter Migration",
+      description:
+        "Seamless datacenter migration services that minimize downtime and ensure business continuity throughout the transition.",
     },
     {
-      year: "2019",
-      title: "AI Division Launch",
-      description: "Established a dedicated AI research and development division to focus on cutting-edge solutions.",
+      icon: <Lightbulb size={32} />,
+      title: "R&D Solutions",
+      description:
+        "Continuous research and development initiatives aligned with dynamic market changes to keep your business at the cutting edge.",
     },
     {
-      year: "2022",
-      title: "Industry Recognition",
-      description: "Received multiple industry awards for our innovative cloud and cybersecurity solutions.",
+      icon: <GraduationCap size={32} />,
+      title: "Training Programs",
+      description:
+        "Comprehensive training programs on multiple emerging technologies for corporate teams and individuals.",
     },
+  ]
+
+  const keyPoints = [
+    "Industry-leading expertise in emerging technologies",
+    "Customized solutions tailored to your specific business needs",
+    "Comprehensive training and support throughout implementation",
+    "Continuous research and development to stay ahead of market trends",
+    "Strategic partnerships with global technology leaders",
   ]
 
   return (
@@ -69,96 +105,127 @@ export default function AboutPage() {
       <div className="about-page">
         <div className="about-hero">
           <h1>About MNR Technologies</h1>
-          <p>Driving innovation and digital transformation since 2010</p>
+          <p>Transforming businesses through innovative technology solutions</p>
         </div>
+<About />
+      
+        <div className="solutions-section">
+          <h2>Our Solutions</h2>
+          <p>Comprehensive technology solutions designed to transform your business</p>
 
-        {/* <div className="about-section">
-          <div className="about-content">
-            <div className="about-text">
-              <h2>Our Story</h2>
-              <p>
-                MNR Technologies was founded in 2010 with a clear mission: to help businesses harness the power of
-                technology to achieve their goals. What began as a small team of passionate technologists has grown into
-                a global company with offices across three continents and a diverse portfolio of clients ranging from
-                startups to Fortune 500 companies.
-              </p>
-              <p>
-                Our journey has been defined by a commitment to innovation, excellence, and client success. We've
-                consistently stayed at the forefront of technological advancement, adapting our solutions to meet the
-                evolving needs of the market while maintaining our core values of integrity, collaboration, and
-                continuous improvement.
-              </p>
-
-              <div className="values-section">
-                <h3>Our Core Values</h3>
-                <div className="values-grid">
-                  <div className="value-item">
-                    <Award className="value-icon" />
-                    <h4>Excellence</h4>
-                    <p>We strive for excellence in everything we do, from code quality to client service.</p>
-                  </div>
-                  <div className="value-item">
-                    <Users className="value-icon" />
-                    <h4>Collaboration</h4>
-                    <p>We believe in the power of teamwork and partnership with our clients.</p>
-                  </div>
-                  <div className="value-item">
-                    <Globe className="value-icon" />
-                    <h4>Innovation</h4>
-                    <p>We embrace new ideas and technologies to solve complex challenges.</p>
-                  </div>
-                  <div className="value-item">
-                    <TrendingUp className="value-icon" />
-                    <h4>Growth</h4>
-                    <p>We're committed to continuous learning and development.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="about-image">
-              <img src="/team.jpg" alt="MNR Technologies Office" />
-            </div>
-          </div>
-        </div> */}
-
-        <div className="team-section">
-          <h2>Our Leadership Team</h2>
-          <p>Meet the experts behind our innovative solutions</p>
-
-          <div className="team-grid">
-            {teamMembers.map((member, index) => (
-              <div className="team-member" key={index}>
-                <div className="member-image">
-                  <img src={member.image || "/placeholder.svg"} alt={member.name} />
-                </div>
-                <h3>{member.name}</h3>
-                <p className="member-position">{member.position}</p>
-                <p className="member-bio">{member.bio}</p>
+          <div className="solutions-grid">
+            {solutions.map((solution, index) => (
+              <div className="solution-item" key={index}>
+                <div className="solution-icon">{solution.icon}</div>
+                <h3>{solution.title}</h3>
+                <p>{solution.description}</p>
+                <a
+                  href={`/solutions/${solution.title.toLowerCase().replace(" solutions", "").replace(" ", "-")}`}
+                  className="learn-more"
+                >
+                  Learn More
+                </a>
               </div>
             ))}
           </div>
         </div>
 
-        <div className="milestones-section">
-          <h2>Our Journey</h2>
-          <div className="timeline">
-            {milestones.map((milestone, index) => (
-              <div className="timeline-item" key={index}>
-                <div className="timeline-marker"></div>
-                <div className="timeline-content">
-                  <h3>
-                    {milestone.year} - {milestone.title}
-                  </h3>
-                  <p>{milestone.description}</p>
-                </div>
+        <div className="services-section">
+          <h2>Our Services</h2>
+          <p>Expert services to help you implement and optimize technology solutions</p>
+
+          <div className="services-grid">
+            {services.map((service, index) => (
+              <div className="service-item" key={index}>
+                <div className="service-icon">{service.icon}</div>
+                <h3>{service.title}</h3>
+                <p>{service.description}</p>
+                <a href={`/services/${service.title.toLowerCase().replace(" ", "-")}`} className="learn-more">
+                  Learn More
+                </a>
               </div>
             ))}
           </div>
+        </div>
+
+
+
+        <div className="approach-section">
+          <h2>Our Approach</h2>
+
+          <div className="approach-content">
+            <div className="approach-image">
+              <img src="/images/approach.jpg" alt="MNR Technologies Approach" />
+            </div>
+
+            <div className="approach-steps">
+              <div className="approach-step">
+                <div className="step-number">01</div>
+                <div className="step-content">
+                  <h3>Discover</h3>
+                  <p>
+                    We begin by understanding your business objectives, challenges, and technical requirements through
+                    in-depth consultation.
+                  </p>
+                </div>
+              </div>
+
+              <div className="approach-step">
+                <div className="step-number">02</div>
+                <div className="step-content">
+                  <h3>Design</h3>
+                  <p>
+                    Our experts design a tailored solution that addresses your specific needs, leveraging the most
+                    appropriate technologies.
+                  </p>
+                </div>
+              </div>
+
+              <div className="approach-step">
+                <div className="step-number">03</div>
+                <div className="step-content">
+                  <h3>Develop</h3>
+                  <p>
+                    We build your solution using agile methodologies, ensuring quality, security, and scalability at
+                    every step.
+                  </p>
+                </div>
+              </div>
+
+              <div className="approach-step">
+                <div className="step-number">04</div>
+                <div className="step-content">
+                  <h3>Deploy</h3>
+                  <p>
+                    We implement the solution with minimal disruption to your operations, providing comprehensive
+                    training and support.
+                  </p>
+                </div>
+              </div>
+
+              <div className="approach-step">
+                <div className="step-number">05</div>
+                <div className="step-content">
+                  <h3>Optimize</h3>
+                  <p>
+                    We continuously monitor and refine your solution to ensure optimal performance and adaptation to
+                    evolving needs.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="cta-section">
+          <h2>Ready to Transform Your Business?</h2>
+          <p>Contact us today to discuss how our solutions and services can help you achieve your business goals.</p>
+          <a href="/contact" className="cta-button">
+            Get in Touch
+          </a>
         </div>
       </div>
       <Footer />
     </main>
   )
 }
-

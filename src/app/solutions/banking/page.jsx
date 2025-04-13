@@ -81,7 +81,7 @@ export default function BankingSolutionPage() {
               </p>
             </div>
             <div className="overview-image">
-              <img src="/bank.jpg" alt="Banking Technology Solutions" />
+              <img src="/images/bank.jpg" alt="Banking Technology Solutions" />
             </div>
           </div>
         </div>
