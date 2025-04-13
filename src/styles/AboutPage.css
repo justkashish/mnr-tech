@@ -373,6 +373,7 @@
     .approach-image,
     .approach-steps {
         width: 100%;
+        height: auto;
     }
 }
 
@@ -396,5 +397,13 @@
     }
     .step-number {
         font-size: 2rem;
+    }
+    .approach-image img {
+        width: 100%;
+        height: auto;
+    }
+    .about-image img {
+        width: 100%;
+        height: auto;
     }
 }
