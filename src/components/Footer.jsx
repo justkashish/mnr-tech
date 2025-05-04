@@ -24,7 +24,7 @@ const Footer = () => {
             <a href="https://twitter.com" className="social-link" aria-label="Twitter">
               <Twitter size={20} />
             </a>
-            <a href="https://linkedin.com" className="social-link" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/company/mnr-technologies-global-pvt-ltd/" className="social-link" aria-label="LinkedIn">
               <Linkedin size={20} />
             </a>
             <a href="https://instagram.com" className="social-link" aria-label="Instagram">
